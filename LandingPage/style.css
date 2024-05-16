@@ -1,0 +1,102 @@
+body{
+    background-image: url(bgImg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: ;
+}
+.img{
+    height: 56px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.hero{
+    display: flex;
+    
+}
+
+ul > li{
+    margin-right:160px ;
+    list-style: none;
+}
+
+ul > li > a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: "Madimi One", sans-serif;
+    color: white;
+
+}
+
+.left > h1{
+    color: white;
+}
+
+.left{
+    position: relative;
+    top:200px;
+    left: 270px;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.right{
+    position: relative;
+    color: white;
+    width: 200px;
+    left: 1200px;
+}
+.leftKadiv{
+    border: 2px solid white;
+    width: 350px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+}
+.leftKadiv > img{
+    position: relative;
+    left: 300px;
+    height: 30px;
+    border-radius: 26px;
+  
+}
+.banner{
+    position: relative;
+    top: -55px;
+    left: 320px;
+}
+.banner > button{
+    height: 30px;
+    text-align:center ;
+    width: 88px;
+    border-radius: 10px;
+}
+.first{
+    background-color: aqua;
+}
+.second{
+    margin-left: 50px;
+}
+.content{
+    display: block;
+    background-color: aquamarine;
+    width: 200px;
+}
+.content ul{
+    display: none;
+}
+.content ul li{
+    color: wheat;
+}
+li:hover{
+    .content ul{
+        display: block;
+    }
+}
